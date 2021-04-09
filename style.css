@@ -1,0 +1,135 @@
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-left: auto;
+  padding: 2em;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav img {
+  height: 20px;
+  cursor: pointer;
+}
+
+nav button {
+  background: #4584ef;
+  border: none;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 8px 12px;
+  outline: none;
+  color: #fff;
+}
+
+main {
+  width: 50%;
+  margin: 6.9em auto;
+  text-align: center;
+}
+
+.searchBox .searchIcon {
+  position: absolute;
+  left: 14px;
+  opacity: 0.4;
+  width: 15px;
+  padding-left: 25.4rem;
+  padding-top: 18px;
+}
+
+.searchBox .micIcon {
+  position: absolute;
+  left: 14px;
+  right: 24px;
+  /* opacity: .8; */
+  width: 15px;
+  padding-left: 67.5rem;
+  padding-top: 16px;
+  color: #70757a;
+  background: transparent;
+}
+
+input {
+  width: 80%;
+  padding: 1em;
+  border-radius: 30px;
+  border: 1px solid grey;
+  outline: none;
+  font-size: 16px;
+  padding-left: 45px;
+  padding-right: 60px;
+}
+
+.btn_container {
+  margin-top: 1em;
+}
+
+.btn_container button {
+  padding: 1em;
+  border: none;
+  border-radius: 0.4em;
+  cursor: pointer;
+}
+
+.offers {
+  margin-bottom: 9.5em;
+  padding: 1.2em;
+}
+
+.offers a {
+  color: #1a0dab;
+  padding: 0.2em;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background-color: rgb(240, 236, 236);
+}
+
+.footer_top {
+  padding: 1.2em;
+}
+
+a img {
+  height: 15px;
+}
+
+.footer_bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid rgba(201, 200, 200, 0.775);
+}
+
+.left {
+  margin-right: 0.2em;
+}
+
+.left a {
+  padding: 0.3em;
+}
+
+.right {
+  margin-right: 1em;
+}
+
+.right a {
+  padding: 0.3em;
+}
